@@ -55,6 +55,7 @@ def get_app(config_name):
 
     # 哪里需要哪里导入蓝图
     from medicine.api_1_0 import api
+    from medicine.api_2_0 import api
 
     # 注册蓝图
     app.register_blueprint(api)

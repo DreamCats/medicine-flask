@@ -13,4 +13,4 @@ def demo():
     :return:  'Hello World'
     '''
 
-    return 'Hello World 1.0'
+    return 'Hello World 2.0'
