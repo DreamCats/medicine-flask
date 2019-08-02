@@ -8,4 +8,5 @@ api=Blueprint('api_2_0',__name__,url_prefix='/api/2.0')
 #为了能调用到视图需要导入
 # from . import demo, passport, verify, profile, position, shop, essay
 # from . import order, community
-from .import demo
+from .import demo, passport, profile, position, shop, essay
+from . import order, community
